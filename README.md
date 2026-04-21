@@ -24,12 +24,12 @@ By transitioning from an MLP baseline to a **CNN architecture with Super-Converg
 ### 1. Training Evolution
 The plot below tracks the dual-objective optimization: maximizing accuracy while simultaneously driving sparsity through the L1-regularized gating mechanism.
 
-![Training Curves](file:///c:/Users/BHAVANA/.gemini/antigravity/scratch/tredence_case_study/outputs/training.png)
+![Training Curves](outputs/training.png)
 
 ### 2. The "Self-Pruning" Signature
 A successful run produces a **bimodal distribution** of gate values. This "all-or-nothing" behavior proves the network has successfully identified which weights are critical and which are safe to prune.
 
-![Gate Distribution](file:///c:/Users/BHAVANA/.gemini/antigravity/scratch/tredence_case_study/outputs/gates_lam_1e-4.png)
+![Gate Distribution](outputs/gates_lam_1e-4.png)
 
 ---
 

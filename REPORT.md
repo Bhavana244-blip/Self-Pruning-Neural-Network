@@ -37,12 +37,12 @@ The following table summarizes the expected performance of the upgraded CNN arch
 ### Gate Value Distribution (Best Model: λ = 1e-4)
 A successful pruning run is characterized by a "bimodal" distribution where most weights are pushed to zero (pruned) while a critical subset remains near 1 (active).
 
-![Gate Distribution](file:///C:/Users/BHAVANA/.gemini/antigravity/scratch/tredence_case_study/outputs/gates_lam_1e-4.png)
+![Gate Distribution](outputs/gates_lam_1e-4.png)
 
 ### Training Curves
 The following curves show the dynamic evolution of accuracy and sparsity over 40 epochs.
 
-![Training Curves](file:///C:/Users/BHAVANA/.gemini/antigravity/scratch/tredence_case_study/outputs/training.png)
+![Training Curves](outputs/training.png)
 
 ---
 
