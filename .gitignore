@@ -1,0 +1,25 @@
+# Data and Models
+data/
+outputs/*
+!outputs/*.png
+*.pt
+*.pth
+
+# Environments
+.venv/
+env/
+venv/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDEs
+.vscode/
+.idea/
+.DS_Store
+
+# Notebooks
+.ipynb_checkpoints/
